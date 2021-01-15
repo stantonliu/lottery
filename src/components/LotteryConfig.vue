@@ -65,13 +65,13 @@
       width="300px"
       class="dialog-showAddLottery"
     >
-      <div class="add-title" slot="title">增加奖项</div>
+      <div class="add-title" slot="title">增加獎項</div>
       <el-form ref="newLottery" :model="newLottery" size="mini">
-        <el-form-item label="奖项名称">
+        <el-form-item label="獎項名稱">
           <el-input v-model="newLottery.name"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" @click="addHandler">增加奖项</el-button>
+          <el-button type="primary" @click="addHandler">增加獎項</el-button>
           <el-button @click="showAddLottery = false">取消</el-button>
         </el-form-item>
       </el-form>
