@@ -87,9 +87,10 @@
         type="textarea"
         :rows="10"
         placeholder="請輸入對應的號碼和名單(可直接從excel複製)，格式(號碼 名字)，輸入的名單將代替號碼顯示在抽獎中。如：
-1 張三
-2 李四
-3 王五
+1 簡大
+2 頭哥
+3 光頭
+4 小石
 				"
         v-model="listStr"
       ></el-input>
